@@ -1,6 +1,6 @@
-from python_imagesearch.imagesearch import imagesearch
+from src.python_imagesearch.imagesearch import image_search
 
-pos = imagesearch("./github.png")
+pos = image_search("./github.png")
 if pos[0] != -1:
     print("position : ", pos[0], pos[1])
 else:

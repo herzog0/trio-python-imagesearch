@@ -1,4 +1,9 @@
-# Python-ImageSearch
+# Trio-Python-ImageSearch
+This is a cloned and modified version of [this](https://github.com/drov0/python-imagesearch) project.
+Here I attempt to make this wrapper trio-compatible for async code. 
+Work in progress!
+Below, you have the original documentation. When things become ready, I will update it.
+
 
 it's a wrapper around pyautogui and opencv2, to allow you to easily add cross-platform image searching capabilities
 to your project.
@@ -33,5 +38,5 @@ brew install opencv
 pip3 install -U pyobjc-core
 pip3 install -U pyobjc
 ```
-I have not tested myself as I don't own a mac, but it was tested and documented in this issue : https://github.com/drov0/python-imagesearch/issues/5
+I have not tested myself as I don't own a mac, but it was tested and documented in this issue : https://github.com/drov0/python-image_search/issues/5
 
