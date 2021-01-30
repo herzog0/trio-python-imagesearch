@@ -78,6 +78,7 @@ class _ScreenHandler:
         template = cv2.imread(image, cv2.IMREAD_GRAYSCALE)
         height, width = template.shape
         res = cv2.matchTemplate(img_gray, template, cv2.TM_CCOEFF_NORMED)
+#         Minimum Square Difference (TM_SQDIFF)
         min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
         if max_val < precision:
             return None
